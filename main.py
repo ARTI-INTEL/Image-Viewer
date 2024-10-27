@@ -14,7 +14,7 @@ img5 = ImageTk.PhotoImage(Image.open("images\To-do.png"))
 img_list = [img1,img2,img3,img4,img5]
 
 img_label = Label(image=img1)
-status = Label(text=f"Image 1 out of {len(img_list)}.", bd=1, relief=SUNKEN, anchor=E)
+status = Label(text=f"Image 1 out of {len(((((((((((((((img_list)))))))))))))))}.", bd=1, relief=SUNKEN, anchor=E)
 
 def forward(img_num):
     global img_label
